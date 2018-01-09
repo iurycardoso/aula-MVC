@@ -1,0 +1,7 @@
+Route: / Controller: IndexController Action:contact View: contact.phtml
+
+<br/>
+
+<?php foreach ($this->view->car as $cars): ?>
+    <p> <?= $cars ?> </p>
+<?php endforeach; ?>
